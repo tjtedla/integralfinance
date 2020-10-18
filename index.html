@@ -1,1 +1,316 @@
-hello moto
+<!DOCTYPE html>
+<html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+html{
+  background-color:white;
+}
+
+@media screen and (max-width:750px){
+  html {
+    width: 100%;
+  }
+}
+
+body { 
+  width: 100%; 
+  margin-right: auto; 
+  margin-left: auto; 
+} 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 95px;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Varela', sans-serif;font-family: Varela;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+
+.active{
+  text-decoration: underline;
+}
+
+
+.logo{
+  color: white;
+  text-align: left;
+  padding-left: 0px;
+  padding-right: 595px;
+  font-family: 'Lora', serif;
+  font-size: 40px;
+}
+
+.main{
+  background-image: url("main.jpg");
+  height:50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1500px;
+  height: 700px;
+}
+
+.summary{
+  padding-top: 350px;
+  text-align: center;
+  color:white;
+  opacity: 80%;
+}
+
+.one{
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.two{
+  font-size: 65px;
+  font-family: 'Varela', sans-serif;font-family: Varela;
+}
+
+.column{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 50px;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+
+.c1, .c2, .c3{
+ background-color:#0b3d61; 
+}
+
+.title1, .title2, .title3{
+  font-size: 20px;
+  font-family: 'Varela', sans-serif;font-family: Varela;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  opacity: 100%;
+}
+
+.content{
+  font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 300;
+  color: white;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 70px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.content1{
+  font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 300;
+  color: white;
+  padding-top: 20px;
+  padding-left: 39px;
+  padding-right: 39px;
+  text-align:center;
+  line-height: 1.6;
+}
+
+.sec{
+  list-style-type: circle;
+  display: block;
+  color: white;
+  text-align: left;
+
+}
+
+.about{
+  
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 30px;
+  text-align: center;
+}
+
+.title{
+  font-size: 50px;
+  font-family: 'Varela', sans-serif;font-family: Varela;
+  color: #0b3d61;
+  text-align: center;
+}
+
+.copy{
+  font-size: 17px;
+  font-family: 'Nunito Sans', sans-serif, regular;
+  color: black;
+  padding-top: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.service, .project, .client{
+  display: inline;
+  width: 100%;
+}
+
+
+.button {
+  background-color: #0b3d61;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-family: 'Varela', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.email{
+  padding-top: 30px;
+  padding-left: 300px;
+  padding-right: 300px;
+  font-family: 'Varela', sans-serif;
+}
+
+.footer{
+  background-color: #0b3d61;
+  padding-top: 0px;
+  padding-bottom: 10px;
+
+}
+
+.column2{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 50px;
+  padding-top: 20px;
+  padding-left: 100px;
+
+
+}
+
+.left{
+  padding-top: 50px;
+
+}
+
+.logo2{
+  color: white;
+  padding-top: 0px;
+  font-family: 'Lora', serif;
+  font-size: 38px;
+}
+
+.company{
+  padding-top: 40px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+.right{
+  padding-top:140px;
+  padding-bottom: 30px;
+  padding-left: 400px;
+  font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div class="subject">
+
+<div class="main">
+  <ul id="navbar">
+
+  <li><a href=#contact>Contact</a></li>
+  <li><a href="#service">Services</a></li>
+  <li><a href="#project">Projects</a></li>
+  <li><a class="active" href="#home">About</a></li>
+  <li class="logo">INTEGRAL FINANCE</li>
+</ul>
+  <div class="summary">
+  <div class="one">DEVELOPING INNOVATIVE STRATEGY</div>
+  <div class="two">ACHIEVING GROWTH</div>
+</div>
+</div>
+
+<div class="column">
+  <div class="c1"><img class="service" src="service.jpg"><div class="title1" id="service">SERVICE</div>
+  <div class="content1">
+Solar<br>
+Wind<br>
+Renewable energy project financing<br>
+Utility-scale battery storage<br>
+Conventional energy project financing<br>
+Leveraged finance<br>
+Asset-based lending<br>
+Reserve-based lending<br>
+Capital markets and syndication support<br>
+Bid support<br>
+Mergers and acquisitions financing<br>
+</div></div>
+  <div class="c2"><img class="project" src="project.jpg"><div class="title2" id="project">PROJECTS</div>
+  <div class="content">Providing senior secured debt financing for power and energy projects and businesses located in the U.S. We manage a large, diverse portfolio which includes investments in all asset classes across the power and energy sectors. In addition to financing conventional energy companies and projects, we are among the leading arrangers of secured loans for renewable power projects including solar and wind power and battery storage projects.</div></div>
+  <div class="c3"><img class="client" src="client.jpg"><div class="title3">CLIENTS</div>
+  <div class="content">Creating comprehensive financing solutions <br>for renewable power and conventional <br>energy-related projects to meet your most critical strategic and funding needs.</div>
+</div>
+</div>
+
+
+<div class="about" id="contact">
+<div class="title">About</div>
+<div class="copy">
+Partner with industry-leading companies who have unique visions for building successful Sustainable Technology and Infrastructure businesses. Empowering companies and investors who are creating a more efficient and sustainable global infrastructure. 
+
+<div class="email">
+<a  class=”link” href="mailto:tjtedla@integralfinancellc.com" target="_blank"><input type="button" class="button" value="Contact Us"></a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="footer">
+<div class="column2">
+  <div class="left">
+  <div class="logo2">INTEGRAL FINANCE</div>
+  <div class="company">Integral Finance LLC. @2020</div>
+</div>
+<div class="right">
+  <a>Privacy Policy</a> | <a>Form ADV</a> | <a>Disclaimer</a>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
